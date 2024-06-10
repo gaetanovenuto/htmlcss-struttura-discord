@@ -15,13 +15,235 @@ html {
     DEBUG
  */
 
-    .
+/* header {
+    width: 1200px;
+    min-height: 500px;
+    background-color: lightcoral;
+    margin: 0 auto;
+} */
+
+/* main {
+    width: 1200px;
+    min-height: 500px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+footer {
+    width: 1200px;
+    min-height: 500px;
+    background-color: greenyellow;
+    margin: 0 auto;
+} */
+
 
 /* 
     GENERAL
 */
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+                                    /* COLORS */
+
+.lightblue-bg {
+    background-color: #ADD8E6;
+}
+
+.orange-bg {
+    background-color: #DAA520;
+}
+
+.darkblue-bg {
+    background-color: #00008B;
+}
+
+.pink-bg {
+    background-color: #EE82EE;
+}
+
+.white-bg {
+    background-color: #FFFFFF;
+}
+
+.skyblue-bg {
+    background-color: #1E90FF;
+}
+
+.lightcoral-bg {
+    background-color: #FFC0CB;
+}
+
+.grey-bg {
+    background-color: #D3D3D3;
+}
+
+.green-bg {
+    background-color: #228B22;
+}
+
+.black-bg {
+    background-color: #23272A;
+}
+
+.darkpink-bg {
+    background-color: #F08080;
+}
+
+.aqua-bg {
+    background-color: #20B2AA;
+}
+
+.lightaqua-bg {
+    background-color: #7FFFD4;
+}
+
+                                    /* CONTAINER LAYOUT */
+
+.header-top {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-1 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-2 {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-1 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-2 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                                    /* BOX-LAYOUTS */
+
+.box-height-30 {
+    height: 30px;
+    border: 1px dashed black;
+}
+
+.box-height-75 {
+    height: 75%;
+    border: 1px dashed black;
+}
+
+.box-height-80 {
+    height: 80%;
+    border: 1px dashed black;
+}
+
+.box-height-90 {
+    height: 90%;
+    border: 1px dashed black;
+}
+
+.box-width-25 {
+    width: 25%;
+}
+
+.box-width-30 {
+    width: 30%;
+}
+
+.box-width-40 {
+    width: 40%;
+}
+
+.box-width-60 {
+    width: 60%;
+}
+
+.box-width-75 {
+    width: 75%;
+}
+
+.box-width-calc {
+    width: calc(100%-30%)
+}
+
+                                    /* LINK FORMAT */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+                                    /* UL FORMAT */
+
+ul {
+    list-style-type: none;
+}
+
+/*
+    HEADER
+*/
+
+.header-top > .box-height-30 {
+    display: flex;
+}
+
+.logo, .link-list, .login {
+    display: inline-block;
+    border: 1px dashed black;
+    padding: 5px;
+}
+
+.logo, .login {
+    width: 25%;
+}
+
+.link-list {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.link-list > li {
+    padding: 0 5px;
+}
+
+.login {
+    text-align: right;
+}
+
+                                     /* MAIN */
+
+.main-container-1 > .box-width-60,
+.main-container-1 > .box-width-40 {
+    height: 80%;
+    display: flex;
+}
+
+                                    /* FOOTER */
+
+footer > .box-height-90 {
+    display: flex;
+}
+
+.box-width-calc > .box-width-25 {
+    display: flex;
 }
