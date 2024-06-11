@@ -136,7 +136,7 @@ footer {
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
                                     /* BOX-LAYOUTS */
 
@@ -201,10 +201,6 @@ ul {
     HEADER
 */
 
-.little-container > .box-height-30 {
-    display: flex;
-}
-
 .logo, .link-list, .login {
     display: inline-block;
     border: 1px dashed black;
@@ -232,30 +228,38 @@ ul {
 
                                      /* MAIN */
 
-.main-container-1 > .box-width-60,
+.main-container-1 > .box-width-75,
 .main-container-1 > .box-width-40 {
     height: 80%;
     display: flex;
 }
 
+.main-container-1 .skyblue-bg,
+.main-container-1 .lightcoral-bg {
+    border: 1px dashed ;
+}
+
+
+
                                     /* FOOTER */
 
-footer .box-height-90 {
+footer .box-height-90,
+footer .box-width-100,
+.little-container > .box-height-30 {
     display: flex;
 }
 
-footer .box-width-100 {
-    display: flex;
+footer .box-width-25 {
+    border: 1px dashed white;
 }
 
-footer .box-width-25,
 footer .box-width-100,
 footer .box-width-60 {
     border: 1px dashed black;
 }
 
-footer .black-bg {
-    border: 1px dashed white;
+footer .black-bg{
+    border-bottom: 1px solid white;
 }
 
 footer .little-container {
@@ -269,3 +273,4 @@ footer .lightcoral-bg {
     height: 30px;
     text-align: center;
 }
+
